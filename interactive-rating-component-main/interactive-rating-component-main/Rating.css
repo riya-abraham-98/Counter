@@ -1,0 +1,156 @@
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+body{
+    display:flex;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(216, 12%, 8%);
+}
+.RatingNow{
+    background-color:  hsl(213, 19%, 18%);
+    height:400px;
+    width:450px;
+    border-radius: 15px;
+   
+}
+
+.RatingNow img{
+    margin:20px;
+    background-color:hsla(216, 12%, 8%,0.9);
+   
+    height:20px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.ratingPara1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
+    font-size:40px;
+    color:white;
+    text-align: center;
+}  
+.ratingPara2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     padding: 10px;
+    font-size:13px;
+    color:white;
+    text-align: center;
+
+}
+ ul{
+    color:white;
+    display:flex;
+    
+    
+
+ }
+
+
+ ul li{
+    list-style-type: none;
+    margin:30px;
+    font-size: 20px;
+    background-color: hsla(216, 12%, 8%,0.9);
+    padding:10px;
+    border-radius: 50%;
+ }
+
+ #submit{
+     width:80%;
+     margin-left:50px;
+     margin-top:40px;
+     height:30px;
+     border-radius:30px;
+     border: 0;
+     background-color:  hsl(25, 97%, 53%);
+     color:white;
+     font-size: 15px;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-weight:700;
+ }
+
+ li:hover{
+    background-color: hsl(217, 12%, 63%);
+ }
+
+ li:active{
+    background-color: hsl(25, 97%, 53%);
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#thankyouPage{
+    display: none;
+}
+
+
+
+.thankyou{
+   
+    background-color: hsl(213, 19%, 18%);
+    width:450px;
+    height:300px;
+    display:flex;
+    flex-direction: column;
+    border-radius: 20px;
+    
+
+
+}
+
+.thankyou img{
+    height: 70px;
+    width:200px;
+    margin:40px;
+    margin-left:100px;
+}
+
+#result{
+    text-align: center;
+    background-color: hsl(214, 13%, 31%) ;
+    width:80%;
+    margin:0 auto;
+    
+    padding:5px;
+    color: hsl(25, 97%, 53%);
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+.thankyou1{
+    font-size: 20px;
+    text-align: center;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:20px;
+}
+
+.thankyoupara{
+    text-align: center;
+    color:white;
+    font-size: small;
+}
